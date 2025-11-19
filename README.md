@@ -44,6 +44,8 @@ To make the predictions interpretable, Grad-CAM was integrated into the trained 
 
 # Results and Evaluation
 <img width="852" height="316" alt="image" src="https://github.com/user-attachments/assets/ca4f8a59-4441-4048-956c-c58228313466" />
+<img width="940" height="554" alt="image" src="https://github.com/user-attachments/assets/7b637f7b-517d-4281-b747-cd030891f235" />
+
 
 
 
