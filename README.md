@@ -25,3 +25,28 @@ The entire pipeline was built using PyTorch and executed in Google Colab. The pi
 •	Grad-CAM generation from the pytorch-grad-cam library
 •	Upload-and-test functionality to predict on new X-ray images with accompanying visual explanations
 
+# Objective
+To develop an AI-based diagnostic system for pneumonia detection using chest X-ray images that not only performs with high accuracy but also explains its predictions through visual cues to enhance clinician trust.
+
+# Problem Statement
+While deep learning models can outperform human experts in image-based diagnosis tasks, they often function as black boxes. In high-stakes environments such as healthcare, this lack of transparency can be detrimental. There is a need for AI models that are both accurate and interpretable, allowing clinicians to understand and verify predictions.
+
+# Implementation
+The entire pipeline was built using PyTorch and executed in Google Colab. The pipeline includes:
+•	Data loading using ImageFolder
+•	Transformations and augmentation using torchvision.transforms
+•	Model loading and fine-tuning from torchvision.models
+•	Grad-CAM generation from the pytorch-grad-cam library
+•	Upload-and-test functionality to predict on new X-ray images with accompanying visual explanations
+
+# Explainability with Grad-CAM
+To make the predictions interpretable, Grad-CAM was integrated into the trained model. Grad-CAM helps visualize the parts of the chest X-ray that were most influential in determining the model's prediction. These visualizations are vital in confirming that the model focuses on medically relevant areas such as the lung regions.
+
+# Results and Evaluation
+<img width="852" height="316" alt="image" src="https://github.com/user-attachments/assets/ca4f8a59-4441-4048-956c-c58228313466" />
+
+
+
+
+
+
