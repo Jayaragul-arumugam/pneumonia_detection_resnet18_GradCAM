@@ -7,7 +7,7 @@ Data Preprocessing
 Each image is resized to 224x224 pixels to ensure compatibility with the ResNet18 input requirements. The pixel values are normalized using the ImageNet mean and standard deviation to align with the pretrained model’s expected input. Data augmentation techniques like horizontal flipping and random rotation were applied to make the model robust against overfitting.
 
 # Model Architecture
-We utilized ResNet18, a popular convolutional neural network architecture that is known for its residual connections, which help prevent vanishing gradients in deeper networks. The final layer of the model was modified to output two classes: Normal and Pneumonia. Dropout layers were tested to evaluate their effect on generalization.
+I've utilized ResNet18, a popular convolutional neural network architecture that is known for its residual connections, which help prevent vanishing gradients in deeper networks. The final layer of the model was modified to output two classes: Normal and Pneumonia. Dropout layers were tested to evaluate their effect on generalization.
 Training Procedure
 •	Loss Function: CrossEntropyLoss
 •	Optimizer: Adam
